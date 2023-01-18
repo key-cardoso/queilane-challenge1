@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    width: 1280px;
+    height: 760px;
+    background: #FFFFFF;
+}
+
+.imagem {
+    width: 431px;
+    height: 661px;
+    left: 212px;
+    top: 51px;
+    bottom: 48px;
+    right: 637px;
+    display: flex;
+}
+
+.pag1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-botao {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column
+}
+
+.titulo {
+    font-size: 111px;
+    font-weight: 700;
+}
+
+.texto {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.botao {
+    position: absolute;
+    width: 199px;
+    height: 35.55px;
+    left: 1025px;
+    top: 494px;
+    background: #3EB25E;
+    border-radius: 35px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.botao:hover {
+    background-color: #FFFF7D;
+    ;
+}
