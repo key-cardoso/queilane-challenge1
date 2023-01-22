@@ -36,7 +36,7 @@
 }
 
 .titulo {
-    font-size: 300%;
+    font-size: 290%;
     font-weight: 700;
     padding: 0;
     margin: 0;
@@ -44,7 +44,10 @@
 }
 
 .texto {
+    font-style: normal;
+    font-weight: 400;
     text-align: center;
+    font-size: 180%
 }
 
 .botoes {
