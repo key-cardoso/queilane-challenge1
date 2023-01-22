@@ -14,7 +14,7 @@
             <img id="img1" src="../img/two.svg" alt="Logo" />
         </div>
         <form class="formulario">
-            <label class="titulo" for="cars"><h1>What is the status of your account?</h1></label>
+            <h1 class="titulo">What is the status of your account?</h1>
             <div>
                 <select name="opções-conta" id="opções-conta">
                     <option value="0">I have not created an account yet.</option>
@@ -23,28 +23,29 @@
 
                 </select>
             </div>
-            <label class="titulo" for="cars"><h1>In which financial markets do you operate?</h1></label>
+            <h1 class="titulo">In which financial markets do you operate?</h1>
+            </label>
             <div class="radio-button">
-                <label class="form-control">
-                    <input type="radio" name="radio" />
-                    stock market <br>
-                </label>
-                <label class="form-control">
-                    <input type="radio" name="radio" />
-                    foreign exchange <br>
-                </label>
-                <label class="form-control">
-                    <input type="radio" name="radio" />
-                    fcommodity <br>
-                </label>
-                <label class="form-control">
-                    <input type="radio" name="radio" />
-                    bond market <br>
-                </label>
-                <label class="form-control">
-                    <input type="radio" name="radio" />
-                    foreign exchange <br>
-                </label>
+                <div class="form-grupo">
+                    <input class="radio" type="radio" name="rd" id="radio1" />
+                    <label for="radio1">stock market <br></label>
+                </div>
+                <div class="form-grupo">
+                    <input class="radio" type="radio" name="rd" id="radio2" />
+                    <label for="radio2">foreign exchange<br></label>
+                </div>
+                <div class="form-grupo">
+                    <input class="radio" type="radio" name="rd" id="radio3" />
+                    <label for="radio3">fcommodity<br></label>
+                </div>
+                <div class="form-grupo">
+                    <input class="radio" type="radio" name="rd" id="radio3" />
+                    <label for="radio3"> bond market<br></label>
+                </div>
+                <div class="form-grupo">
+                    <input class="radio" type="radio" name="rd" id="radio3" />
+                    <label for="radio3"> foreign exchange<br></label>
+                </div>
             </div>
             <div class="botoes">
                 <br> <a href="tela1.html" target="_blank"><button  class="botao1">Back to Home</button></a>
