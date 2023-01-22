@@ -1,0 +1,44 @@
+.pag1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-botao {
+    text-align: left;
+    width: 50%;
+}
+
+imagem {
+    height: 640px;
+    width: 431px;
+    position: relative;
+}
+
+#img {
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    text-align: left;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+input [type="radio"] {
+    background-color: aqua;
+}
+
+input [type="radio"]:checked {
+    background-color: aqua;
+} */

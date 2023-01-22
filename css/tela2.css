@@ -3,40 +3,40 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
 }
 
 .body {
-    width: 1280px;
-    height: 760px;
     background: #FFFFFF;
-}
-
-.imagem {
-    width: 552.51px;
-    height: 480.01px;
-    left: 87.49px;
-    top: 146px;
-    bottom: 48px;
-    right: 637px;
-    display: flex;
-    position: absolute;
 }
 
 .pag1 {
     display: flex;
-    flex-direction: row;
+    /* alinhando no centro */
     align-items: center;
+    /* espaço entre os itens */
     justify-content: space-around;
 }
 
 .texto-botao {
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFF7D;
 }
 
-.titulo {
+.imagem {
+    width: 50%;
+    align-items: center;
+}
+
+#img {
+    width: 50%;
+    align-items: center;
+}
+
+titulo {
     position: absolute;
     width: 473px;
     height: 101px;
