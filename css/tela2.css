@@ -16,6 +16,7 @@
     height: 640px;
     width: 431px;
     position: relative;
+    margin-right: 10%;
 }
 
 #img {
@@ -28,9 +29,10 @@
 }
 
 .texto-botão {
-    height: 88px;
     display: flex;
     justify-items: center;
+    flex-direction: column;
+    margin-right: 15%;
 }
 
 .titulo {
