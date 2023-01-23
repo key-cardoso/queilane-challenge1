@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body {
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.pag1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    width: 552.51px;
+    height: 528.01px;
+    position: relative;
+}
+
+#img1 {
+    width: 94%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formulario {
+    margin-left: 5%;
+    font-family: 'Roboto';
+}
+
+.titulo {
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.botao1,
+.botao2 {
+    width: 44%;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.botao2 {
+    left: 10px;
+}
+
+.botao3 {
+    width: 89%;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.botao1:hover {
+    background-color: #FFFF7D;
+}
+
+.botao2:hover {
+    background-color: #FFFF7D;
+}
+
+.botao3:hover {
+    background-color: #FFFF7D;
+}
+
+#area {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 481px) {
+    .pag1 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 480px;
+        height: 760px;
+        margin: 0;
+        padding-top: 51px;
+    }
+    .imagem {
+        height: 344.04px;
+        margin: 0;
+    }
+    #img1 {
+        width: 360px;
+        height: 344.04px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-49%, -30%);
+        padding: 10%;
+    }
+    .formulario {
+        margin-left: 20%;
+    }
+    .botao3 {
+        width: 95%;
+    }
+    .botao1,
+    .botao2 {
+        width: 45%;
+    }
+}
