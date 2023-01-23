@@ -22,3 +22,12 @@ Após fazer o download, extraia os arquivos em uma pasta.
 ### Passo3:
 
 Faça o dowload do VsCode no link:https://code.visualstudio.com/download e instale.
+
+### Passo4:
+
+Com o Vscode instalado, clique com o botão direito em cima da pasta extraida e selecione a opção "Abrir com Code".
+
+### Passo5:
+
+Após abrir , você terá acesso ao codigo, assim como as imagens utilizadas.
+Para ver as páginas implementadas, abra a pasta "Pages" e abra no seu navegador os arquivos de cada tela.
