@@ -13,8 +13,6 @@ function valid() {
     if (age.value == "") {
         age.focus();
         alert("Prencha o age")
+
     }
-
-
-
 }
