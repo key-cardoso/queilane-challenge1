@@ -59,15 +59,9 @@ label {
     font-style: normal;
 }
 
-
-/* Escondemos o radio original */
-
 input[type=radio] {
     display: none;
 }
-
-
-/* Usamos o pseudo-element :before para recriar o novo radio */
 
 label:before {
     content: "";
@@ -117,6 +111,18 @@ input[type=radio]:checked+label:before {
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+.botao1:hover {
+    background-color: #FFFF7D;
+}
+
+.botao2:hover {
+    background-color: #FFFF7D;
+}
+
+.botao3:hover {
+    background-color: #FFFF7D;
 }
 
 @media screen and (max-width: 481px) {
