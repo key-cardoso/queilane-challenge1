@@ -72,8 +72,13 @@
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
-    margin: 10px 0px;
+    margin: 8px 0px;
     padding: 3%;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .botao1:hover {

@@ -14,30 +14,24 @@
         <div class="imagem">
             <img id="img1" src="../img/five.svg" alt="Logo" />
         </div>
-        <div class="card">
+        <form class="card" action="tela6.html" method="post" name="card">
             <div class="textfield">
                 <label for="usuario">Full name:</label>
-                <input id="ent" type="text" name="usuario" required placeholder="Nasser Toghiri">
+                <input id="ent" type="text" name="nome" title="Preencha o campo Nome" placeholder="Nasser Toghiri" required>
             </div>
             <div class="textfield">
-                <label for="senha">Email:</label>
-                <input id="ent" type="email" name="email" placeholder="N.Toghiri@Gmail.com">
+                <label for="email">Email:</label>
+                <input id="ent" type="email" name="email" title="Preencha o campo E-mail" placeholder="N.Toghiri@Gmail.com" size="20" maxlength="50" required>
             </div>
             <div class="textfield">
-                <label for="senha">Age:</label>
-                <input id="ent3" type="email" name="email" placeholder="--">
+                <label for="age">Age:</label>
+                <input id="ent3" type="email" name="Age" title="Preencha o campo Age" placeholder="--" size="20" maxlength="50" required>
             </div>
-
-            <button class="botao1">Submit</button>
-            <button class="botao2">Back</button>
-
-        </div>
+            <br><a href="../pages/tela5.html" target="_blank" class="botao2">Back</a>
+            <a class="botao1" onclick="valid()">Submit</a>
 
 
-
-
-
-
+        </form>
 
     </Section>
 
