@@ -10,11 +10,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;
+    padding-right: 5%;
 }
 
 .imagem {
     width: 552.51px;
-    height: 528.01px;
+    height: 521.01px;
     position: relative;
 }
 
