@@ -89,3 +89,32 @@ input[type=radio]:checked+label:before {
     text-align: center;
     line-height: 18px;
 }
+
+.botoes {}
+
+.botao1,
+.botao2 {
+    width: 30%;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.botao2 {
+    left: 10px;
+}
+
+.botao3 {
+    width: 62%;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
