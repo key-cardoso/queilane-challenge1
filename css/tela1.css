@@ -58,7 +58,7 @@
 
 .botao:hover {
     background-color: #FFFF7D;
-    ;
+    cursor: pointer;
 }
 
 a:link {

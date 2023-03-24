@@ -77,7 +77,6 @@ label:before {
 }
 
 input[type=radio]:checked+label:before {
-    content: "\2022";
     background-color: #3EB25E;
     font-size: 110%;
     font-weight: 400;
@@ -86,7 +85,17 @@ input[type=radio]:checked+label:before {
     line-height: 18px;
 }
 
-.botao1,
+.botao1 {
+    width: 30%;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
 .botao2 {
     width: 30%;
     background: #3EB25E;
@@ -115,14 +124,17 @@ input[type=radio]:checked+label:before {
 
 .botao1:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 .botao2:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 .botao3:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 a:link {
