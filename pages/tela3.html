@@ -4,59 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/tela3.css" media="screen" />
     <title>Desafio</title>
+    <link rel="stylesheet" type="text/css" href="../css/tela3.css">
+    <script type="text/javascript" src="../js/validacao3.js"></script>
 </head>
 
 <body>
-    <Section class="pag1">
+    <section class="pag1">
         <div class="imagem">
-            <img id="img1" src="../img/two.svg" alt="Logo" />
+            <img id="img1" src="../img/two.svg" alt="Logo">
         </div>
         <form class="formulario" name="formulario">
             <h1 class="titulo">What is the status of your account?</h1>
             <div>
-                <select name="opções-conta" id="opções-conta">
+                <select name="opcoes-conta" id="opcoes-conta">
                     <option value="0">I have not created an account yet.</option>
                     <option value="1">I already have an account.</option>
                     <option value="2">I will create an account</option>
-
                 </select>
             </div>
             <h1 class="titulo">In which financial markets do you operate?</h1>
-            </label>
             <div class="radio-button" name="radio-butoton" id="radioB">
                 <div class="form-grupo">
                     <input class="radio" type="radio" name="rd" id="radio1" />
-                    <label for="radio1">stock market <br></label>
+                    <label class="text" for="radio1">stock market <br></label>
                 </div>
                 <div class="form-grupo">
                     <input class="radio" type="radio" name="rd" id="radio2" />
-                    <label for="radio2">foreign exchange<br></label>
+                    <label class="text" for="radio2">foreign exchange<br></label>
                 </div>
                 <div class="form-grupo">
                     <input class="radio" type="radio" name="rd" id="radio3" />
-                    <label for="radio3">fcommodity<br></label>
+                    <label class="text" for="radio3">fcommodity<br></label>
                 </div>
                 <div class="form-grupo">
                     <input class="radio" type="radio" name="rd" id="radio3" />
-                    <label for="radio3">bond market<br></label>
+                    <label class="text" for="radio3">bond market<br></label>
                 </div>
                 <div class="form-grupo">
                     <input class="radio" type="radio" name="rd" id="radio3" />
-                    <label for="radio3">foreign exchange<br></label>
+                    <label class="text" for="radio3">foreign exchange<br></label>
                 </div>
             </div>
             <div class="botoes">
-                <br>
-                <a href="../pages/tela2.html" target="_blank"><button class="botao1">Back</button></a>
-                <a><button class="botao2" >Next</button></a><br> <br>
-                <a href="../pages/tela4.html" target="_blank"><button  class="botao3">Skiep</button></a>
+                <a href="./tela2.html" class="botao1">Back</a>
+                <a href="./tela4.html" class="botao2" id='botao2' onclick=" return validarForm()">Next</a>
             </div>
-
+            <a href="./tela4.html" class="botao3">Skip</a>
         </form>
-    </Section>
-
+    </section>
 </body>
 
 </html>
