@@ -91,10 +91,12 @@
 
 .botao1:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 .botao2:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 a:link {
