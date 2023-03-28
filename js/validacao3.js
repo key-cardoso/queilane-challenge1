@@ -5,7 +5,7 @@ function validarForm() {
     const isSelectSelected = selectInput.selectedIndex !== 0;
 
     if (!isRadioSelected || !isSelectSelected) {
-        alert('Por favor, selecione as opções de conta e de mercado financeiro para prosseguir.');
+        alert('Please select account and money market options to proceed.');
         return false;
     }
 }
