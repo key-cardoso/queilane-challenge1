@@ -40,9 +40,29 @@
     font-style: normal;
 }
 
-.botao1,
+.botoes {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.botao1 {
+    display: inline-block;
+    width: 38%;
+    text-align: center;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
 .botao2 {
-    width: 44%;
+    text-align: center;
+    display: inline-block;
+    width: 38%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -57,7 +77,8 @@
 }
 
 .botao3 {
-    width: 89%;
+    display: inline-block;
+    width: 80%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -65,18 +86,26 @@
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .botao1:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 .botao2:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 .botao3:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 #area {
