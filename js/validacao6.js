@@ -4,24 +4,24 @@ function validarForm() {
     const idadeInput = document.getElementsByName('age')[0];
 
     if (!nomeInput.checkValidity()) {
-        alert('Por favor, insira seu nome completo.');
+        alert('Please enter your full name.');
         return false;
     }
 
     if (!emailInput.checkValidity()) {
-        alert('Por favor, insira um endereço de e-mail válido.');
+        alert('Please enter a valid email address.');
         return false;
     }
 
     if (!idadeInput.checkValidity()) {
-        alert('Por favor, insira uma idade válida entre 18 e 60 anos.');
+        alert('Please enter a valid age between 18 and 60.');
         return false;
     }
 
-    // Se tudo estiver certo, exibir mensagem de sucesso e redirecionar para a tela 1
-    alert('Formulário enviado com sucesso!');
+
+    alert('Form sent successfully!');
     window.location.href = 'tela1.html';
 
-    // Impedir que o formulário seja submetido
+
     return false;
 }
