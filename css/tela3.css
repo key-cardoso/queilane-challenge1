@@ -39,6 +39,7 @@
 }
 
 #opções-conta {
+    font-family: 'Roboto';
     font-size: 110%;
     font-weight: 400;
     font-style: normal;
@@ -48,13 +49,15 @@
     font-size: 110%;
     font-weight: 400;
     font-style: normal;
+    padding-bottom: 10%;
 }
 
-label {
+.text {
     display: inline-block;
     cursor: pointer;
     position: relative;
-    font-size: 110%;
+    font-family: 'Roboto';
+    font-size: 106%;
     font-weight: 400;
     font-style: normal;
 }
@@ -64,6 +67,7 @@ input[type=radio] {
 }
 
 label:before {
+    font-family: 'Roboto';
     content: "";
     display: inline-block;
     width: 16px;
@@ -80,13 +84,22 @@ input[type=radio]:checked+label:before {
     background-color: #3EB25E;
     font-size: 110%;
     font-weight: 400;
+    font-family: 'Roboto';
     font-style: normal;
     text-align: center;
     line-height: 18px;
 }
 
+.botoes {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
 .botao1 {
-    width: 30%;
+    display: inline-block;
+    width: 38%;
+    text-align: center;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -97,7 +110,9 @@ input[type=radio]:checked+label:before {
 }
 
 .botao2 {
-    width: 30%;
+    text-align: center;
+    display: inline-block;
+    width: 38%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -112,7 +127,8 @@ input[type=radio]:checked+label:before {
 }
 
 .botao3 {
-    width: 62%;
+    display: inline-block;
+    width: 80%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -120,6 +136,7 @@ input[type=radio]:checked+label:before {
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .botao1:hover {
