@@ -87,6 +87,7 @@ a:link {
 
 .botao2:hover {
     background-color: #FFFF7D;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 481px) {
