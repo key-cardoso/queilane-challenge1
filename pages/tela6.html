@@ -17,7 +17,7 @@
         <form class="card" action="tela6.html" method="post" name="card">
             <div class="textfield">
                 <label for="usuario">Full name:</label>
-                <input id="ent" type="text" name="nome" title="Preencha o campo Nome" placeholder="Nasser Toghiri" required>
+                <input id="ent" type="text" name="name" title="Preencha o campo Nome" placeholder="Nasser Toghiri">
             </div>
             <div class="textfield">
                 <label for="email">Email:</label>
@@ -25,10 +25,10 @@
             </div>
             <div class="textfield">
                 <label for="age">Age:</label>
-                <input id="ent3" type="email" name="Age" title="Preencha o campo Age" placeholder="--" size="20" maxlength="50" required>
+                <input id="ent3" type="number" name="age" title="Preencha o campo Age" placeholder="" min="18" max="60" required>
             </div>
-            <br><a href="../pages/tela5.html" target="_blank" class="botao2">Back</a>
-            <a class="botao1" onclick="valid()">Submit</a>
+            <br><a href="../pages/tela5.html" class="botao2">Back</a>
+            <a class="botao1" href="tela1.html" onclick="return validarForm()">Submit</a>
 
 
         </form>
