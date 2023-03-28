@@ -1,12 +1,13 @@
 # queilane-challenge1
 
 Repositório criado para o primeiro desafio do estágio da compass.
+O projeto possui validação em todos os campos e possui um layout responsivo para mobile.
 
 ## 🚀 Instruções para executar o projeto
 
 ### 📋 O que usei:
 
-- [Visual Studio Code](https://code.visualstudio.com/download) - O Editor usado
+- [Visual Studio Code](https://code.visualstudio.com/download) - Editor
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilo
 - [JavaScripit](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
