@@ -33,3 +33,6 @@ Com o Vscode instalado, clique com o botão direito em cima da pasta extraida e 
 
 Após abrir , você terá acesso ao codigo, assim como as imagens utilizadas.
 Para ver as páginas implementadas, abra a pasta "Pages" e abra no seu navegador os arquivos de cada tela.
+
+### Exibição do projeto
+[projeto.webm](https://user-images.githubusercontent.com/85686546/228388086-d946cf41-8871-4423-9815-4d5844abc49e.webm)
