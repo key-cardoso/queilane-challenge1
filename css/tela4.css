@@ -85,9 +85,29 @@ input[type=checkbox]:checked+label:before {
     line-height: 18px;
 }
 
-.botao1,
+.botoes {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.botao1 {
+    display: inline-block;
+    width: 38%;
+    text-align: center;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
 .botao2 {
-    width: 30%;
+    text-align: center;
+    display: inline-block;
+    width: 38%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -102,7 +122,8 @@ input[type=checkbox]:checked+label:before {
 }
 
 .botao3 {
-    width: 62%;
+    display: inline-block;
+    width: 80%;
     background: #3EB25E;
     border-radius: 35px;
     border: none;
@@ -110,6 +131,26 @@ input[type=checkbox]:checked+label:before {
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
+    text-align: center;
+}
+
+.botao1:hover {
+    background-color: #FFFF7D;
+    cursor: pointer;
+}
+
+.botao2:hover {
+    background-color: #FFFF7D;
+    cursor: pointer;
+}
+
+.botao3:hover {
+    background-color: #FFFF7D;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 481px) {
