@@ -2,7 +2,7 @@
 
 Repositório criado para o primeiro desafio do estágio da compass.
 O projeto possui validação em todos os campos e possui um layout responsivo para mobile.
-[hitpaw-1679970410774.webm](https://user-images.githubusercontent.com/85686546/228383799-e5f9f104-7224-4167-98bf-898cf4edd9a8.webm)
+
 
 ## 🚀 Instruções para executar o projeto
 
