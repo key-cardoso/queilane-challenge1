@@ -2,14 +2,17 @@
 
 Repositório criado para o primeiro desafio do estágio da compass.
 
-## O que usei:
+## 🚀 Instruções para executar o projeto
 
-- HTMT
-- CSS
-- JavaScripit
-- Visual Code
+### 📋 O que usei:
 
-## Instruções para executar o projeto
+- [Visual Studio Code](https://code.visualstudio.com/download) - O Editor usado
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilo
+- [JavaScripit](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
+
+* JavaScripit
+* Visual Code
 
 ### Passo1:
 
